@@ -6,9 +6,37 @@
 body {
     display: flex;
     flex-direction: column;
+    flex: 1;
 }
 
 
 .header {
     background-color: #1f2937;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.header .top {
+    display: flex;
+    justify-content: space-around
+}
+
+.header .middle {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.header .middle p {
+    color: white;
+    overflow-wrap: break-word;
+    font-size: 18px;
+}
+
+
+.header .middle img {
+    width: 400px;
+    height: 150px;
 }
