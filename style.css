@@ -1,51 +1,113 @@
 * {
     box-sizing: border-box;
+    font-family: 'Roboto' Roboto;
 }
 
 body {
+    margin: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
-    flex: 1;
-    margin: 0;
+    justify-content: center;
+    font-family: Roboto;
 }
 
-
 .header {
-    background-color: #1f2937;
-    display: flex;
-    flex-direction: column;
-    flex: 1;
     width: 100%;
+    background-color: #1f2937;
+    color: white;
+    text-align: start;
+    display: flex;
+        flex-direction: column;
 }
 
 .header .top {
     display: flex;
-    justify-content: space-around
-}
-
-.header .middle {
-    display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
 
-.header .middle p {
-    font-size: 18px;
-    max-width: 400px;
+
+
+.header .middle {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     padding: 20px;
 }
 
+
+
+.header .middle .text {
+    font-size: 24px;
+    font-weight: bold;
+    max-width: 400px;
+    padding: 20px;
+
+}
+
+.header .middle .text h2 {
+    font-size: 42px;
+}
+
 .header .middle img {
-    width: 400px;
-    height: 150px;
+    max-width: 400px;
+    padding: 20px;
+}   
+
+
+
+
+
+.middle1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    width: 800px;
+    gap: 20px;
 }
 
-.header .middle h2 {
-    font-size: 48px;
-    max-width: 300px;
+#title {
+    margin-bottom: 32px;
+}
+.middle1 .text {
+    display: flex;
 }
 
-.header .middle .text { 
-    color: white;
+.middle2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    width: 600px;
+    flex-direction: column
+    background-color: #fbbf24;
+}
+
+.middle2 p {
+    font-size: 36px;
+    line-height: 1.5;
+}
+
+.middle3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    width: 600px;
+    flex-direction: column;
+    background-color: #3882f6;
+}
+
+
+
+.middle3 .signup {
+    display: flex;
+    align-items: space-between;
+}
+
+.middle3 p {
+    align-self: flex-start;
 }
