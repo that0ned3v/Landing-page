@@ -1,3 +1,9 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+
+
 * {
     box-sizing: border-box;
     font-family: 'Roboto' Roboto;
@@ -18,7 +24,9 @@ body {
     color: white;
     text-align: start;
     display: flex;
-        flex-direction: column;
+    flex-direction: column;
+    gap: 100px;
+    padding-bottom: 100px;
 }
 
 .header .top {
@@ -27,87 +35,109 @@ body {
     align-items: center;
 }
 
-
+.header .top h1 {
+    font-size: 18px;
+    color: #f9faf8;
+}
 
 .header .middle {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    padding: 20px;
+    
+
 }
-
-
 
 .header .middle .text {
-    font-size: 24px;
-    font-weight: bold;
-    max-width: 400px;
-    padding: 20px;
-
-}
-
-.header .middle .text h2 {
-    font-size: 42px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 250px;
 }
 
 .header .middle img {
-    max-width: 400px;
-    padding: 20px;
-}   
-
-
-
-
-
-.middle1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding: 20px;
-    width: 800px;
-    gap: 20px;
+    width: 550px;
+    height: 200px;
+    flex-shrink: 1;
 }
-
 #title {
     margin-bottom: 32px;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+
 }
-.middle1 .text {
+
+
+.about {
     display: flex;
+    justify-content: center;
+    padding: 20px;
+    width: 200px;
+    gap: 20px;
+    text-align: center;
+}
+
+
+.about [class^="item"] img {
+    border-radius: 20px;
+    border: 5px solid #3882f6
 }
 
 .middle2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px;
-    width: 600px;
-    flex-direction: column
-    background-color: #fbbf24;
+    background-color: #E5E7EB;
+    width: 100%;
+   
 }
 
-.middle2 p {
-    font-size: 36px;
-    line-height: 1.5;
+.middle2 .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1200px;
 }
+
+.middle2 .container p {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+}
+
+
 
 .middle3 {
+    margin-top: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 20px;
-    width: 600px;
-    flex-direction: column;
+    width: 700px;
     background-color: #3882f6;
+    gap: 20px;
 }
 
 
 
-.middle3 .signup {
+.middle3 .text {
     display: flex;
     align-items: space-between;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 
 .middle3 p {
     align-self: flex-start;
+}
+
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+    background-color: #1f2937;
+    color: white;
 }
