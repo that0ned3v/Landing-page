@@ -1,156 +1,57 @@
-* {
-    box-sizing: border-box;
-}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
 
 body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    flex: 1;
     margin: 0;
+    font-family: 'Roboto', Roboto;
 }
 
 
 .header {
+    display: flex;
     background-color: #1f2937;
+    width: 100%;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.header .left {
     display: flex;
     flex-direction: column;
-    flex: 1;
-    width: 100%;
-<<<<<<< HEAD
-    flex-direction: row;
-    gap: 100px;
-    padding-bottom: 100px;
-=======
-        flex-direction: column;
+    padding: 20px;
+    color: white;
+    
 }
 
-.header .top {
-    display: flex;
-    justify-content: space-around
-}
->>>>>>> parent of 2ce6b90 (css)
-    justify-content: space-around;
-}
-
-<<<<<<< HEAD
-.container {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 20px;
-    justify-content: center;
-}
-
-.header .container .left {
+.header .left .sub {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 20px;
-}
-
-.header .container .right {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-}
-
-.header .right img {
-    width: 550px;
-    height: 200px;
-
-#title {
-    margin-bottom: 32px;
-    font-size: 36px;
-    color: #1f2937;
-    font-weight: 900;
 
 }
-=======
 
-
-.header .middle {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.header .middle p {
+.header .left .sub p {
+    width: 270px;
     font-size: 18px;
-    max-width: 400px;
-    padding: 20px;
+    color: #e5e7eb;
 }
 
-.header .middle img {
-    width: 400px;
-    height: 150px;
-}
-
-.header .middle h2 {
-    font-size: 48px;
-    max-width: 300px;
-}
-
-.header .middle .text { 
+.header .left .sub button {
+    background-color: #3b82f6;
     color: white;
-    max-width: 400px;
-    padding: 20px;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: 700px;
 }   
->>>>>>> parent of 2ce6b90 (css)
 
-
-
-
-
-.middle1 {
+.header .right {
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
-    padding: 20px;
-    width: 800px;
-    gap: 20px;
-}
-
-#title {
-    margin-bottom: 32px;
-}
-.middle1 .text {
-    display: flex;
-}
-
-.middle2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-    width: 600px;
-    flex-direction: column
-    background-color: #fbbf24;
-}
-
-.middle2 p {
-    font-size: 36px;
-    line-height: 1.5;
-}
-
-.middle3 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-    width: 600px;
-    flex-direction: column;
-    background-color: #3882f6;
-}
-
-
-
-.middle3 .signup {
-    display: flex;
-    align-items: space-between;
-}
-
-.middle3 p {
-    align-self: flex-start;
 }
