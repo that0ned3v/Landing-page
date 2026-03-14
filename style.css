@@ -15,81 +15,89 @@ body {
     display: flex;
     background-color: #1f2937;
     width: 100%;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     padding-bottom: 125px;
-    padding-top: 15px;
     gap: 85px;
 }
 
-.header .left {
+.header .cont {
     display: flex;
     flex-direction: column;
-    color: white;
+    justify-content: space-between;
+
+    width: 1000px;
+    height: 375px;
+
+}
+
+.header .cont .top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header .cont .top h2 {
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+.header .cont .top .links {
+    display: flex;
+    gap: 20px;
+}
+
+.header .cont .top .links a {
+    font-size: 18px;
+    color: #E5E7EB;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+
+
+.header .cont .bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+
+}
+
+.header .cont .bottom img {
+    width: 1000px;
+    height: 200px;
+    background-color: #1f2937;
+}
+
+.header .cont .bottom .text {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
     
 }
-
-.header .left .sub {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-    width: 400px;
-}
-
-.header .left .sub p {
+.header .cont .bottom .text p {
     width: 450px;
-    font-size: 18px;
     color: #e5e7eb;
+    font-size: 18px;
 }
 
-.header .left .sub button {
-    background-color: #3b82f6;
-    color: white;
-
-    font-size: 15px; 
-    font-weight: 700px;
-
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-    border-radius: 5px;
-    height: 30px;
-    width: 110;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}   
-
-.header .left .sub h1 {
+.header .cont .bottom .text h1 {
     font-size: 48px;
-    font-weight: 900px;
+    color: #f9faf8;
+    font-weight: 900s;
+    width: 350px;
     margin-bottom: -15px;
 }
 
-.header .right {
-    display: flex;
-    flex-direction: column;
-    gap: 80px;
-    align-items: flex-end;
-}
-
-
-.header .right img {
-    width: 450px;
-    height: 225px;
-}
-
-
-.header .right .links a {
-    text-decoration: none;
-    color: #e5e7eb;
-    font-size: 18px;
-    
-}
-
-.header .right .links {
-    display: flex;
-    justify-content: space-around;
-    gap:20px
+.header .cont .bottom .text button {
+    width: 120px;
+    height: 35px;
+    border: none;
+    border-radius: 7px;
+    color: #f9faf8;
+    background-color: #3882f6;
+    font-size: 15px;
+    font-weight: 700;
 }
