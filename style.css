@@ -1,105 +1,141 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 
 body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 0;
-    font-family: 'Roboto', Roboto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  font-family: "Roboto", Roboto;
 }
 
+/*header*/
 
 .header {
-    display: flex;
-    background-color: #1f2937;
-    width: 100%;
-    justify-content: space-around;
-    align-items: center;
-    padding-bottom: 125px;
-    gap: 85px;
+  display: flex;
+  background-color: #1f2937;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 125px;
+  gap: 85px;
 }
 
 .header .cont {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 
-    width: 1000px;
-    height: 390px;
-
+  width: 1000px;
+  height: 390px;
 }
 
 .header .cont .top {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .header .cont .top h2 {
-    color: #f9faf8;
-    font-size: 24px;
+  color: #f9faf8;
+  font-size: 24px;
 }
 
 .header .cont .top .links {
-    display: flex;
-    gap: 20px;
+  display: flex;
+  gap: 20px;
 }
 
 .header .cont .top .links a {
-    font-size: 18px;
-    color: #E5E7EB;
-    list-style: none;
-    text-decoration: none;
+  font-size: 18px;
+  color: #e5e7eb;
+  list-style: none;
+  text-decoration: none;
 }
 
-
-
-
 .header .cont .bottom {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 50px;
-
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
 }
 
 .header .cont .bottom img {
-    width: 1100px;
-    height: 230px;
-    background-color: #1f2937;
-    align-self: center;
+  width: 1100px;
+  height: 230px;
+  background-color: #1f2937;
+  align-self: center;
 }
 
 .header .cont .bottom .text {
-    display: flex;
-    flex-direction: column;
-    flex: 1;
-    
+  display: flex;
+  flex-direction: column;
+  flex: 1;
 }
 .header .cont .bottom .text p {
-    width: 450px;
-    color: #e5e7eb;
-    font-size: 18px;
+  width: 450px;
+  color: #e5e7eb;
+  font-size: 18px;
 }
 
 .header .cont .bottom .text h1 {
-    font-size: 48px;
-    color: #f9faf8;
-    font-weight: 900s;
-    width: 350px;
-    margin-bottom: -15px;
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: 900s;
+  width: 350px;
+  margin-bottom: -15px;
 }
 
 .header .cont .bottom .text button {
-    width: 120px;
-    height: 35px;
-    border: none;
-    border-radius: 7px;
-    color: #f9faf8;
-    background-color: #3882f6;
-    font-size: 15px;
-    font-weight: 700;
-    cursor: pointer;
-    
+  width: 120px;
+  height: 35px;
+  border: none;
+  border-radius: 7px;
+  color: #f9faf8;
+  background-color: #3882f6;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+/*information*/
+
+.info {
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 100px;
+}
+
+.info .title {
+  margin-bottom: 32px;
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 900;
+}
+
+.info .cards {
+  display: flex;
+  justify-content: center;
+  width: 600px;
+  align-items: center;
+  gap: 50px;
+}
+
+.infor .cards .card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 120px;
+}
+
+.info .cards .card div {
+  width: 140px;
+  height: 150px;
+  padding: 20px;
+  border-radius: 10%;
+  border: 5px solid #3882f6;
+}
+
+.info .cards p {
+  width: 180px;
+  font-size: 18px;
 }
