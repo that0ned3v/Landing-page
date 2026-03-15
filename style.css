@@ -120,14 +120,14 @@ body {
   gap: 50px;
 }
 
-.infor .cards .card-1 {
+.infor .cards .card {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100px;
 }
 
-.info .cards .card-1 div {
+.info .cards .card div {
   width: 120px;
   height: 130px;
   padding: 20px;
