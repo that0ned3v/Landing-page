@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 
-
 body {
     display: flex;
     flex-direction: column;
@@ -27,7 +26,7 @@ body {
     justify-content: space-between;
 
     width: 1000px;
-    height: 375px;
+    height: 390px;
 
 }
 
@@ -66,9 +65,10 @@ body {
 }
 
 .header .cont .bottom img {
-    width: 1000px;
-    height: 200px;
+    width: 1100px;
+    height: 230px;
     background-color: #1f2937;
+    align-self: center;
 }
 
 .header .cont .bottom .text {
