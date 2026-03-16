@@ -102,7 +102,7 @@ body {
 .info {
   text-align: center;
   margin-top: 15px;
-  margin-bottom: 100px;
+  margin-bottom: 120px;
 }
 
 .info .title {
@@ -117,18 +117,19 @@ body {
   justify-content: center;
   width: 600px;
   align-items: center;
-  gap: 50px;
+  gap: 100px;
 }
 
-.infor .cards .card {
+.info .cards .card {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100px;
+  min-width: 100px;
+  flex-direction: column;
 }
 
 .info .cards .card div {
-  width: 120px;
+  width: 130px;
   height: 130px;
   padding: 20px;
   border-radius: 10%;
