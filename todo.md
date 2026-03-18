@@ -1,2 +1,0 @@
--allign boxes with t4xt in info tab
--fix box height and width in info tab

@@ -145,7 +145,8 @@ body {
 /*quote*/
 
 .quote {
-  margin-top: 15px;
+  padding-top: 70px;
+  padding-bottom: 70px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -155,6 +156,8 @@ body {
 
 .quote .conta {
   width: 700px;
+  display: flex;
+  flex-direction: column;
 }
 
 .quote .conta .phrase {
@@ -165,4 +168,58 @@ body {
 
 .quote .conta .author {
   align-self: flex-end;
+  font-size: 24px;
+  font-weight: 500;
+  margin-top: -30px;
+  color: #1f2937;
+}
+
+/* Call to action */
+
+.call {
+  margin-top: 90px;
+  margin-bottom: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #3882f6;
+  width: 1000px;
+  height: 150px;
+  border-radius: 12px;
+  flex1
+}
+
+.call .cont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 75%;
+}
+
+.call .cont .text {
+  display: flex;
+  flex-direction: column;
+}
+
+.call .cont .text .callt {
+  font-size: 24px;
+  color: #f9faf8;
+}
+.call .cont .text .low {
+  font-size: 18px;
+  color: #e5e7eb;
+  margin-top: -20px;
+}
+
+.call .cont button {
+  width: 120px;
+  height: 40px;
+  background-color: #3882f6;
+  color: #e5e7eb;
+  font-size: 18px;
+  font-weight: 700;
+  border: none;
+  border: 3px solid #e5e7eb;
+  border-radius: 10px;
+  border-color: #e5e7eb;
 }
