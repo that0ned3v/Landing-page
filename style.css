@@ -186,7 +186,6 @@ body {
   width: 1000px;
   height: 150px;
   border-radius: 12px;
-  flex1
 }
 
 .call .cont {
@@ -212,7 +211,7 @@ body {
 }
 
 .call .cont button {
-  width: 120px;
+  width: 140px;
   height: 40px;
   background-color: #3882f6;
   color: #e5e7eb;
@@ -222,4 +221,18 @@ body {
   border: 3px solid #e5e7eb;
   border-radius: 10px;
   border-color: #e5e7eb;
+}
+
+.footer {
+  background-color: #1f2937;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+
+.footer p {
+  color: #e5e7eb;
+  font-size: 18px;
 }
